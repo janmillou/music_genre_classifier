@@ -23,9 +23,15 @@ Using Librosa, I visualized the audio data to understand what distinguishes one 
 I extracted mathematical features to feed into the machine learning models, including:
 
 * MFCCs (Mel-Frequency Cepstral Coefficients): Crucial for timber/texture analysis.
+  <img width="2401" height="1109" alt="mel" src="https://github.com/user-attachments/assets/1f3587ca-dc45-42d1-addd-5e503d825215" />
 * Spectral Centroid: The "center of mass" of the spectrum (brightness of sound).
 * Zero Crossing Rate: Rate at which the signal changes sign.
+* Harmonics & Perceptrual
+<img width="2606" height="1011" alt="harmonix   perceptrual" src="https://github.com/user-attachments/assets/ffa23234-055c-472c-a844-ffc13233cc11" />
 * BPM (Tempo): Beats per minute.
+
+![PCA scattert](https://github.com/user-attachments/assets/82ca77c3-3ef4-46ce-8ead-85bd450b0a12)
+
 
 ## 3. Model Comparison
 
